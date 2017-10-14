@@ -7,8 +7,8 @@ A Python utility that calculates ratio between doc length and unique terms
 
 ## Arguments
 
--p / --path - the path to start descending (required)
--f / --filter - the file extension to search for (optional, default is 'txt')
+* -p / --path - the path to start descending (required)
+* -f / --filter - the file extension to search for (optional, default is 'txt')
 
 ## Outputs
 

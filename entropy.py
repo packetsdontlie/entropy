@@ -9,7 +9,6 @@ def main():
     
     parser = argparse.ArgumentParser(description='entropy', epilog="Exits with 0 on success")
     parser.add_argument('-p','--path', help='path to files', required=True)
-    # parser.add_argument('-o','--opath', help='path to /o/ directory or ~output', required=False)
     parser.add_argument('-f', '--filter', help='filter', required=False, type=str, default='txt')
 
     args = parser.parse_args()

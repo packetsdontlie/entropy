@@ -64,10 +64,8 @@ def locate_files(pattern, root):
                     yield os.path.join(path, filename)
         except:
             print "Could not traverse your -p (path)"
-            sys.exit(1)
     else:
         print "Could not find your -p (path)"
-        sys.exit(1)
 
 if __name__ == "__main__":
     main()
